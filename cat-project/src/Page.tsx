@@ -34,10 +34,10 @@ const Page = () => {
   };
 
   useEffect(() => {
-    // fetchDocuments();
-    const interval = setInterval(() => {
-      fetchDocuments();
-    }, 5000);
+    fetchDocuments();
+    // const interval = setInterval(() => {
+    //   fetchDocuments();
+    // }, 5000);
 
   }, []);
 
